@@ -9,25 +9,31 @@ namespace Farmacia.Models
         public void Cadastra(Medicamento m)
         {
             conexao.Open();
+
             string sql = "INSERT INTO Medicamento (nome, descricao, valor, dosagem, qtdEstoque) VALUES (@nome, @descricao, @valor, @dosagem, @qtdEstoque)";
 
             MySqlCommand comando = new MySqlCommand(sql, conexao);
+
             comando.Parameters.AddWithValue("@nome", m.Nome);
             comando.Parameters.AddWithValue("@descricao", m.Descricao);
             comando.Parameters.AddWithValue("@valor", m.Valor);
-            comando.Parameters.AddWithValue("@dodagem", m.Dosagem);
+            comando.Parameters.AddWithValue("@dosagem", m.Dosagem);
             comando.Parameters.AddWithValue("@qtdEstoque", m.QtdEstoque);
 
             comando.ExecuteNonQuery();
 
             conexao.Close();
         }
+
+
         public List<Medicamento> Lista(int id)
         {
             conexao.Open();
-            string sql = "SELECT * FROM Medicamento "+ (id > 0 ? "WHERE id = @id" : "") + " ORDER BY nome";
+
+            string sql = "SELECT * FROM Medicamento "  + (id > 0 ? "WHERE id = @id" : "") + " ORDER BY nome";
 
             MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+            
             if(id > 0)
             {
                 comandoQuery.Parameters.AddWithValue("@id", id);

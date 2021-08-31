@@ -33,3 +33,9 @@ C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\staticweba
 C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Farmacia.dll
 C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Farmacia.pdb
 C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Farmacia.genruntimeconfig.cache
+C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Razor\Views\Medicamento\Lista.cshtml.g.cs
+C:\Users\S145\Documents\MeusProjetos\Farmacia\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\FecharPedido.cshtml.g.cs
+C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Sacola.cshtml.g.cs
+C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Detalhe.cshtml.g.cs
+C:\Users\S145\Documents\MeusProjetos\Farmacia\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Lista.cshtml.g.cs

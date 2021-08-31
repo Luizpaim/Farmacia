@@ -9,7 +9,8 @@ namespace Farmacia.Models
         public void Cadastra(Clinica c)
         {
             conexao.Open();
-             string sql = "INSERT INTO Clinica (nome, detalhes) VALUES (@nome, @detalhes)";
+
+             string sql = "INSERT INTO Clinica (nome, Detalhes) VALUES (@nome, @detalhes)";
 
              MySqlCommand comando = new MySqlCommand(sql, conexao);
              comando.Parameters.AddWithValue("@nome", c.Nome);
@@ -23,9 +24,11 @@ namespace Farmacia.Models
         public List<Clinica> Lista(int id)
         {
             conexao.Open();
+
             string sql = "SELECT * FROM Clinica "+ (id > 0 ? "WHERE id = @id" : "") + " ORDER BY nome";
 
             MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+            
             if(id > 0)
             {
                 comandoQuery.Parameters.AddWithValue("@id", id);

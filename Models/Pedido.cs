@@ -8,6 +8,7 @@ namespace Farmacia.Models
         public int Id {get;set;}
         public DateTime DataPedido {get;set;}
         public bool Entregue {get;set;}
+        
         public Clinica clinica {get;set;}
 
         public List<ItemPedido> Itens {get;set;}

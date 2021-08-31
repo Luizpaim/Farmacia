@@ -14402,6 +14402,11 @@
   "RootNamespace": "Farmacia",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Pedido\\Detalhe.cshtml",
+      "TargetPath": "Views\\Pedido\\Detalhe.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14424,26 @@
     {
       "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Pedido\\Sacola.cshtml",
+      "TargetPath": "Views\\Pedido\\Sacola.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Pedido\\FecharPedido.cshtml",
+      "TargetPath": "Views\\Pedido\\FecharPedido.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Medicamento\\Lista.cshtml",
+      "TargetPath": "Views\\Medicamento\\Lista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\S145\\Documents\\MeusProjetos\\Farmacia\\Views\\Pedido\\Lista.cshtml",
+      "TargetPath": "Views\\Pedido\\Lista.cshtml",
       "FileKind": "mvc"
     }
   ],
